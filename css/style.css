@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #083b4c;
+}
+
+
+.square{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .3rem;
+}
+
+.square-number{
+    background-color: #1389b2;
+}
+.square-fizz{
+    background-color: #0cd6a1;
+}
+.square-buzz{
+    background-color: #ffd166;
+}
+.square-fizzbuzz{
+    background-color: #f0466f; 
+}
